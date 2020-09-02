@@ -2,88 +2,126 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Timeline usando Bulma</title>
-    <link rel="stylesheet" href="./assets/bulma/bulma.css">
-    <link rel="stylesheet" href="./assets/style-timeline.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timeline usando Bulma</title>
+  <link rel="stylesheet" href="./assets/bulma/bulma.css">
+  <link rel="stylesheet" href="./assets/style-timeline.css">
 
-    <link rel="stylesheet" href="./assets/styles.css">
+  <link rel="stylesheet" href="./assets/styles.css">
 </head>
+
 <body>
-    <section class="hero  is-primary is-large">
-        <div class="hero-head ">
-          <nav class="navbar has-background-grey-dark">
-            <div class="container">
-              <div class="navbar-brand">
-                <a class="navbar-item has-text-warning">
-                    Full Stack
-                  <img src="./assets/images/logo.png" alt="Logo">
-                </a>
-                <span class="navbar-burger burger" data-target="navbarMenuHeroB">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-                </span>
-              </div>
-            </div>
-          </nav>
+  <section class="hero  is-primary is-large">
+    <div class="hero-head ">
+      <nav class="navbar has-background-grey-dark">
+        <div class="container">
+          <div class="navbar-brand">
+            <a class="navbar-item has-text-warning">
+              Full Stack
+              <img src="./assets/images/logo.png" alt="Logo">
+            </a>
+            <span class="navbar-burger burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
         </div>
-        <div class="hero-body ">
-            <div class="container has-text-centered">
-              <p class="title is-size-1">
-                CURSO FULLSTACK
-              </p>
-              <p class="subtitle is-size-3">
-                Cronograma clases
-              </p>
-              <p class="subtitle is-4 mt-28">Porcentaje de avance 33%</p>
-              <progress class="progress is-medium" value="9" max="27">33%</progress>
-            </div>
-        </div>
-    </section>
-
-    <div class="columns is-centered">
-      <div class="column is-one-fifth"></div>
-      <div class="column column is-centered">Timeline</div>
-      <div class="column is-one-fifth"></div>
+      </nav>
     </div>
+    <div class="hero-body ">
+      <div class="container has-text-centered">
+        <p class="title is-size-1">
+          CURSO FULLSTACK
+        </p>
+        <p class="subtitle is-size-3">
+          Cronograma clases
+        </p>
+        <p class="subtitle is-4 mt-28">Porcentaje de avance 33%</p>
+        <progress class="progress is-medium" value="9" max="27">33%</progress>
+      </div>
+    </div>
+  </section>
 
-
-    <footer class="footer">
-        <div class="columns">
-            <div class="column"></div>
+  <div class="columns is-centered">
+    <div class="column is-one-fifth"></div>
+    <div class="column column is-centered">
+      <main>
+        <ul class="timeline is-centered">
+          <li class="timeline-item">
             <div class="column">
-                <nav class="level is-mobile">
-                    <div class="level-item has-text-centered">
-                      <div>
-                        <p class="heading">Clases</p>
-                        <p class="title">27</p>
-                      </div>
-                    </div>
-                    <div class="level-item has-text-centered">
-                      <div>
-                        <p class="heading">Realizadas</p>
-                        <p class="title">9</p>
-                      </div>
-                    </div>
-                    <div class="level-item has-text-centered">
-                      <div>
-                        <p class="heading">Faltantes</p>
-                        <p class="title">18</p>
-                      </div>
-                    </div>
-                </nav>
+              <span class="has-text-grey heading">24 AGOSTO</span>
+              <span class="has-text-primary ">Clase de HTML</span>
             </div>
-            <div class="column"></div>
-        </div>
-        <div class="content has-text-centered">
-          <p>
-            <strong>Curso Full Stack</strong> impartido por <a href="#">Manuel Ortega Carcamo</a> </br>
-            <a href="https://github.com/mortegac/frenon-layout-bulma">FRENON - BULMA</a>
-          </p>
-        </div>
-    </footer>
+          </li>
+          <li class="timeline-item">
+            <div class="column">
+              <span class="has-text-grey heading">26 AGOSTO </span>
+              <span class="">Clase de CSS</span>
+            </div>
+          </li>
+          <li class="timeline-item ">
+            <div class="column">
+              <span class="has-text-grey heading">31 AGOSTO</span>
+              <span class="has-text-danger">Clase de GIT</span>
+            </div>
+          </li>
+          <li class="timeline-item ">
+            <div class="column">
+              <span class="has-text-grey heading">02 SEPTIEMBRE</span>
+              <span class="has-text-link ">Clase de CSS AVANZADO</span>
+            </div>
+          </li>
+        </ul>
+        <ul class="timeline">
+          <li class="timeline-item">
+            <div class="column">
+              <span class="has-text-grey heading">07 SEPTIEMBRE</span>
+              <span class="has-text">Clase de Javascript</span>
+            </div>
+          </li>
+        </ul>
+      </main>
+    </div>
+    <div class="column is-one-fifth"></div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="columns">
+      <div class="column"></div>
+      <div class="column">
+        <nav class="level is-mobile">
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Clases</p>
+              <p class="title">27</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Realizadas</p>
+              <p class="title">9</p>
+            </div>
+          </div>
+          <div class="level-item has-text-centered">
+            <div>
+              <p class="heading">Faltantes</p>
+              <p class="title">18</p>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="column"></div>
+    </div>
+    <div class="content has-text-centered">
+      <p>
+        <strong>Curso Full Stack</strong> impartido por <a href="#">Manuel Ortega Carcamo</a> </br>
+        <a href="https://github.com/mortegac/frenon-layout-bulma">FRENON - BULMA</a>
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
